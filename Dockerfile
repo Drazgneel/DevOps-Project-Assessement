@@ -5,3 +5,7 @@ COPY . /usr/share/nginx/html
 # Expose port 80
 EXPOSE 80 
 
+docker build -t my-first-web-app . 
+
+docker run -d -p 8080:80 my-first-web-app
+
