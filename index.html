@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            height: 100vh;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            width: 100%;
+            position: fixed;
+            top: 0;
+        }
+        nav {
+            background-color: #333;
+            width: 250px;
+            height: 100%;
+            padding-top: 60px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            overflow-y: auto;
+        }
+        nav a {
+            color: white;
+            padding: 15px 20px;
+            text-decoration: none;
+            display: block;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .content {
+            margin-left: 250px;
+            padding: 80px 20px;
+            flex-grow: 1;
+        }
+        .section {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+        .section h2 {
+            color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>WELCOME TO EDU MANAGE APP </h1>
+</header>
+
+<nav>
+    <a href="#finance">Finance</a>
+    <a href="#registration">Registration</a>
+    <a href="#exam-timetable">Exam Timetable</a>
+    <a href="#subjects">Subjects</a>
+</nav>
+
+<div class="content">
+    <div id="finance" class="section">
+        <h2>Finance</h2>
+        <p>Manage student fees, view payment history, and access financial reports.</p>
+        <button onclick="alert('Finance details coming soon!')">View Finance</button>
+    </div>
+
+    <div id="registration" class="section">
+        <h2>Registration</h2>
+        <p>Register for courses and manage your enrollment.</p>
+        <button onclick="alert('Registration feature coming soon!')">Register Now</button>
+    </div>
+
+    <div id="exam-timetable" class="section">
+        <h2>Exam Timetable</h2>
+        <p>View and download the exam schedule.</p>
+        <button onclick="alert('Exam timetable coming soon!')">View Timetable</button>
+    </div>
+
+    <div id="subjects" class="section">
+        <h2>Subjects</h2>
+        <p>Explore available subjects and their details.</p>
+        <button onclick="alert('Subjects list coming soon!')">View Subjects</button>
+    </div>
+</div>
+
+</body>
+</html>
